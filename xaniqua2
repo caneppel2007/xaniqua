@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Receitas Culinárias</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Receitas Culinárias</h1>
+    </header>
+<main>
+        <section class="recipe-list">
+            <article>
+                <h2><a href="receita1.html">Torta de Maçã</a></h2>
+                <p>Descrição breve da torta de maçã.</p>
+            </article>
+            <article>
+                <h2><a href="receita2.html">Risoto de Funghi</a></h2>
+                <p>Descrição breve do risoto de funghi.</p>
+            </article>
+            <!-- Adicionar mais receitas conforme necessário -->
+        </section>
+    </main>
+    <footer>
+<p>&copy; 2024 Receitas Culinárias. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Torta de Maçã</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Torta de Maçã</h1>
+    </header>
+    <main>
+        <section class="recipe">
+            <h2>Ingredientes</h2>
+            <ul>
+                <li>Massa folhada</li>
+                <li>Maçãs</li>
+                <li>Açúcar</li>
+                <li>Canela</li>
+            </ul>
+            <h2>Modo de Preparo</h2>
+            <ol>
+                <li>Descasque e fatie as maçãs.</li>
+                <li>Misture as maçãs com açúcar e canela.</li>
+                <li>Forre uma forma com a massa folhada.</li>
+                <li>Coloque o recheio de maçã e cubra com mais massa folhada.</li>
+                <li>Asse no forno a 180°C por 30 minutos.</li>
+            </ol>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Receitas Culinárias. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Torta de Maçã</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Torta de Maçã</h1>
+    </header>
+    <main>
+        <section class="recipe">
+            <h2>Ingredientes</h2>
+            <ul>
+                <li>Massa folhada</li>
+                <li>Maçãs</li>
+                <li>Açúcar</li>
+                <li>Canela</li>
+            </ul>
+            <h2>Modo de Preparo</h2>
+            <ol>
+                <li>Descasque e fatie as maçãs.</li>
+                <li>Misture as maçãs com açúcar e canela.</li>
+                <li>Forre uma forma com a massa folhada.</li>
+                <li>Coloque o recheio de maçã e cubra com mais massa folhada.</li>
+                <li>Asse no forno a 180°C por 30 minutos.</li>
+            </ol>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Receitas Culinárias. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+header, footer {
+    background-color: #f2f2f2;
+    padding: 10px;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+}
+
+.recipe-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.article {
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+/* Estilos específicos para links */
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Estilos para listas de ingredientes e modo de preparo */
+ul, ol {
+    margin-bottom: 20px;
+}
+
+/* Estilos para títulos de seção */
+h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+/* Estilos para rodapé */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+
+
